@@ -1,0 +1,28 @@
+{
+  "name": "drange-immutable",
+  "version": "2.0.0",
+  "description": "Immutable wrapper for drange.",
+  "module": "esmodule.js",
+  "main": "commonjs.js",
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "keywords": [
+    "discontinuous",
+    "range",
+    "drange",
+    "immutable",
+    "functional"
+  ],
+  "author": "Hugo Josefson <hugo@josefson> (https://www.hugojosefson.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.9"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "peerDependencies": {
+    "drange": "^2.0.0"
+  }
+}
