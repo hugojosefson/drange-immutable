@@ -5,7 +5,7 @@
   "module": "esmodule.js",
   "main": "commonjs.js",
   "scripts": {
-    "test": "standard --fix"
+    "test": "standard --fix && mocha"
   },
   "keywords": [
     "discontinuous",
@@ -20,6 +20,8 @@
     "esm": "^3.2.9"
   },
   "devDependencies": {
+    "drange": "^2.0.0",
+    "mocha": "^6.0.2",
     "standard": "^12.0.1"
   },
   "peerDependencies": {
