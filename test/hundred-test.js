@@ -1,7 +1,7 @@
 import { strictEqual } from 'assert'
 import { describe, it } from 'mocha'
 
-import wrapper from '..'
+import wrapper from '../esmodule'
 import DRange from 'drange'
 
 const range = wrapper(DRange)

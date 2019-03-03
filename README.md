@@ -3,10 +3,14 @@
 Wrapper for the excellent npm package
 [`DRange`](https://www.npmjs.com/package/drange).
 
-This wrapper keeps the exact same API syntax as `DRange`, but where each
-method that mutates the range, instead returns a mutated clone.
+This wrapper keeps the exact same API syntax as `DRange`, except:
 
-This makes it fit better with a purely functional code style.
+- each method that mutates the range, instead returns a mutated clone,
+- the range is also sorted after `.add()` is used, instead of putting
+  loose ranges at the end.
+
+The immutability makes it fit better with a purely functional code
+style.
 
 ## Installation
 
