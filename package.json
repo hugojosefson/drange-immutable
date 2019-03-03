@@ -15,6 +15,7 @@
     "functional"
   ],
   "author": "Hugo Josefson <hugo@josefson> (https://www.hugojosefson.com/)",
+  "repository": "hugojosefson/drange-immutable",
   "license": "MIT",
   "dependencies": {
     "esm": "^3.2.9"
