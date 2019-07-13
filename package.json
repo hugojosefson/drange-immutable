@@ -23,7 +23,7 @@
   "devDependencies": {
     "drange": "^2.0.0",
     "mocha": "^6.0.2",
-    "standard": "^12.0.1"
+    "standard": "^13.0.2"
   },
   "peerDependencies": {
     "drange": "^2.0.0"
