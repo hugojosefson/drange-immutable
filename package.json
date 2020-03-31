@@ -1,6 +1,6 @@
 {
   "name": "drange-immutable",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Immutable wrapper for drange.",
   "module": "esmodule.js",
   "main": "commonjs.js",
