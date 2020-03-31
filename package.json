@@ -22,11 +22,15 @@
   },
   "devDependencies": {
     "drange": "^2.0.0",
-    "mocha": "^6.0.2",
-    "standard": "^13.0.2"
+    "mocha": "^7.1.1",
+    "standard": "^14.3.3"
   },
   "peerDependencies": {
     "drange": "^2.0.0"
+  },
+  "mocha": {
+    "require": "esm",
+    "spec": "test/*-test.js"
   },
   "engines": {
     "node": "^8.10.0 || ^10.13.0 || >=11.10.1"

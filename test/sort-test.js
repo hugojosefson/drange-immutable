@@ -7,7 +7,7 @@ import DRange from 'drange'
 const range = wrapper(DRange)
 
 describe('sort', () => {
-  it(`subranges are kept sorted`, () => {
+  it('subranges are kept sorted', () => {
     const first = range(1, 100)
     const second = first.subtract(50, 60)
     const third = second.add(55)

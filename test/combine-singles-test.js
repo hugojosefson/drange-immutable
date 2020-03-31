@@ -7,7 +7,7 @@ import DRange from 'drange'
 const range = wrapper(DRange)
 
 describe('combine-singles', () => {
-  describe(`several single numbers combined are seen as one range`, () => {
+  describe('several single numbers combined are seen as one range', () => {
     it('in order', () => {
       const actual = range(1).add(2).add(3).add(4)
       strictEqual(actual.toString(), '[ 1-4 ]')

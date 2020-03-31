@@ -7,7 +7,7 @@ import DRange from 'drange'
 const range = wrapper(DRange)
 
 describe('longer-chain', () => {
-  it(`longer chain doesn't mutate intermediate instances`, () => {
+  it('longer chain doesn\'t mutate intermediate instances', () => {
     const first = range(1, 100)
     const second = first.subtract(50, 60)
     const third = second.add(150)
